@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working with divs</title>
+    <!---internal css--->
+    <style>
+        .parentdiv{
+            background-color: chocolate;
+            width: 70%;
+            height: 50%;
+            padding-left: 40px;
+            padding-bottom: 40px;
+            margin-left: 50px;
+            margin: auto;
+            float: left;
+        
+       }
+       .parentdiv2{
+        background-color: darkcyan;
+        width: 40%;
+        height: 500px;
+        margin: auto;
+        padding-left: 30px;
+        float: left;
+
+       }
+        .divone{
+           background-color: brown; 
+           width: fit-content;
+           float: right;
+           margin: auto;
+        }
+        .divtwo{
+            background-color: chartreuse;
+            width: fit-content;
+            margin-top: 20px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--this is a parent div-->
+    <div class="parentdiv">
+        <h1>working with Divs</h1> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Harum quod aperiam, ratione maiores quia pariatur,
+             iste soluta libero id ut vero illo! Ullam consequuntur dolor,
+              impedit quam amet animi repudiandae?
+            
+        </p>
+        <div>
+            
+            <div class="parentdiv2">
+                <div class="divone">
+                    <h1>div one</h1>
+                </div>
+                 <div class="divtwo">
+                <h1>div two</h1>
+            </div>
+            
+        </div>
+
+        
+    
+    
+</body>
+</html>
