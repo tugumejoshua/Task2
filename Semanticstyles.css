@@ -1,0 +1,48 @@
+header{
+    background-color: blueviolet;
+    color: black;
+}
+nav{
+    background-color: chocolate;
+}
+main{
+    background-color: peru;
+    width: 70%;
+    height: 300px;
+    float: left;
+
+}
+aside{
+    background-color: darkmagenta;
+    width: 29%;
+    height: 300px;
+    float: right;
+}
+footer{
+    background-color: blueviolet;
+    clear: both;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+nav ul li a{
+text-decoration: none;
+padding: 10px;
+background-color: brown;
+color: green;
+}
+nav ul li a:hover{
+    background-color: green;
+    color: goldenrod;
+}
+.selectedlink{
+    background-color: yellowgreen;
+}
+.h1styles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1.some{
+    background-color: red;
+}

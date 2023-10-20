@@ -2,12 +2,12 @@ body{
     background-color: gold;
 }
 .h1style{
-    color: chartreuse;
+    color: rgb(72, 0, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 .images{
-    width: 90%;
+    width: 80%;
     height: 70%;
 }
 
@@ -20,13 +20,16 @@ body{
     padding-left: 10px;
     padding: auto;
 }
+
 .maindiv{
     width: 80%;
     height: auto;
     margin: auto;
     background-color: blue;
+    margin-right: 30px;
     
 }
+
 .caption{
     color: maroon;
     text-align: center;
